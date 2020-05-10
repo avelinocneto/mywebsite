@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/mywebsite/static/css/main.7bd90e21.chunk.css",
+    "main.js": "/mywebsite/static/js/main.cef08827.chunk.js",
+    "main.js.map": "/mywebsite/static/js/main.cef08827.chunk.js.map",
+    "runtime~main.js": "/mywebsite/static/js/runtime~main.8e5ad122.js",
+    "runtime~main.js.map": "/mywebsite/static/js/runtime~main.8e5ad122.js.map",
+    "static/css/2.969ddd42.chunk.css": "/mywebsite/static/css/2.969ddd42.chunk.css",
+    "static/js/2.c96bff02.chunk.js": "/mywebsite/static/js/2.c96bff02.chunk.js",
+    "static/js/2.c96bff02.chunk.js.map": "/mywebsite/static/js/2.c96bff02.chunk.js.map",
+    "index.html": "/mywebsite/index.html",
+    "precache-manifest.6cb54593a969000289a9b8d77e67118b.js": "/mywebsite/precache-manifest.6cb54593a969000289a9b8d77e67118b.js",
+    "service-worker.js": "/mywebsite/service-worker.js",
+    "static/css/2.969ddd42.chunk.css.map": "/mywebsite/static/css/2.969ddd42.chunk.css.map",
+    "static/css/main.7bd90e21.chunk.css.map": "/mywebsite/static/css/main.7bd90e21.chunk.css.map",
+    "static/media/flag-icon.scss": "/mywebsite/static/media/zw.8b885465.svg"
+  }
+}
