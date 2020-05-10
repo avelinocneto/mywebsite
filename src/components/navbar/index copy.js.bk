@@ -1,0 +1,46 @@
+import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLightbulb } from '@fortawesome/free-regular-svg-icons';
+import { faHome, faUser, faFileAlt, faPaperPlane, faBars, faCode } from '@fortawesome/free-solid-svg-icons';
+import { Translate } from "react-localize-redux";
+import "./style.scss";
+
+export const navbar = () => (
+	<div className="nav-container base">
+		<nav id="navbar" className="main-nav default">
+			<div className="container ">
+				<div className="row">
+					<div className="mobile-menu-holder navbar-right">
+						<a className="mobile-btn" href="#"><FontAwesomeIcon icon={faBars} size="2x"></FontAwesomeIcon></a>
+					</div>
+				</div>
+			</div>
+			<div className="container">
+				<div className="row">
+					<div className="col-sm-5 t-center">
+						<ul className="menu first">
+							<li><a className="scroll" href="#home">Home<FontAwesomeIcon icon={faHome} size="1x" fixedWidth={true} /></a></li>
+							<li><a className="scroll" href="#about">About<FontAwesomeIcon icon={faUser} size="1x" fixedWidth={true} /></a></li>
+							<li><a className="scroll" href="#resume">Resume<FontAwesomeIcon icon={faFileAlt} size="1x" fixedWidth={true} /></a></li>
+						</ul>
+					</div>
+					<div className="col-sm-2 pd-0 t-center">
+						<div className="img-profile">
+							<img src={process.env.PUBLIC_URL + "/assets/img/me.jpg"} alt="" />
+						</div>
+						<div className="name-profile">
+							<h5><a className="scroll" href="#home"><Translate text='developer.name' /><span><Translate text='developer.cargo' /></span></a></h5>
+						</div>
+					</div>
+					<div className="col-sm-5 t-center">
+						<ul className="menu second">
+							<li><a className="scroll" href="#portfolio">Challenges<FontAwesomeIcon icon={faLightbulb} size="1x" fixedWidth={true} /></a></li>
+							<li><a className="scroll" href="#skills">Skills<FontAwesomeIcon icon={faCode} size="1x" fixedWidth={true} /></a></li>
+							<li><a className="scroll" href="#contact">Contact<FontAwesomeIcon icon={faPaperPlane} size="1x" fixedWidth={true} /></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+)

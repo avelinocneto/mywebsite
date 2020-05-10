@@ -1,0 +1,82 @@
+{
+	"label": {
+		"downloadCV": [
+			"Download My CV",
+			"Baixar meu currículo"
+		],
+		"whoIAmTitle": "Who I am ?"
+	},
+	"developer": {
+		"name": "Avelino Neto",
+		"cargo": "Full Stack Senior Developer",
+		"email": [
+			"contact@avelinoneto.dev"
+		],
+		"birthDate": [
+			"July, 05th 1989"
+		],
+		"freelancerStatus": [
+			"Available"
+		],
+		"skype": [
+			"avelinocneto"
+		],
+		"whoIAmTitle": [
+			""
+		],
+		"whoIAmDescription": [
+			"More than 10 years working with programming and 15 years with computers..."
+		]
+	},
+	"expertise": [
+		{
+			"company": [
+				"Travel Technology Interactive do Brasil"
+			],
+			"cargo": [
+				"Full Stack Senior Software Developer and Maintenance Technical Lead"
+			],
+			"description": "",
+			"startDate": "Jan 2009",
+			"endDate": ""
+		}
+	],
+	"education": [
+		{
+			"institute": "Faculdade Bandeirantes",
+			"course": "Bacharel em Sistemas de Informação",
+			"description": "",
+			"startDate": "Jan 2007",
+			"endDate": "Dec 2010"
+		}
+	],
+	"interests": [
+		{
+			"icon": "faMusic",
+			"name": "Music"
+		},
+		{
+			"icon": "faGamepad",
+			"name": "Gaming"
+		},
+		{
+			"icon": "faCar",
+			"name": "Cars"
+		},
+		{
+			"icon": "faFutbol",
+			"name": "Soccer"
+		}
+	],
+	"languages": [
+		{
+			"title": "Portuguese",
+			"rating": "5"
+		},
+		{
+			"title": "English",
+			"rating": "3"
+		}
+	],
+	"challenges": []
+}

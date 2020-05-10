@@ -1,0 +1,392 @@
+@import './font/fontello.scss';
+@import './font/titillium.scss';
+@import './font/opensans.scss';
+
+
+// @font-face {
+//     font-family: 'titilliumlight_upright';
+//     src: url('../../public/assets/font/titillium-lightupright-webfont.eot');
+//     src: url('../../public/assets/font/titillium-lightupright-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../../public/assets/font/titillium-lightupright-webfont.woff') format('woff'),
+//          url('../../public/assets/font/titillium-lightupright-webfont.ttf') format('truetype'),
+//          url('../../public/assets/font/titillium-lightupright-webfont.svg#titilliumlight_upright') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+
+// @font-face {
+//     font-family: 'titilliumregular_upright';
+//     src: url('../../public/assets/font/titillium-regularupright-webfont.eot');
+//     src: url('../../public/assets/font/titillium-regularupright-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../../public/assets/font/titillium-regularupright-webfont.woff') format('woff'),
+//          url('../../public/assets/font/titillium-regularupright-webfont.ttf') format('truetype'),
+//          url('../../public/assets/font/titillium-regularupright-webfont.svg#titilliumregular_upright') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+
+// @font-face {
+//     font-family: 'titillium-semibold';
+//     src: url('../../public/assets/font/titillium-semibold-webfont.eot');
+//     src: url('../../public/assets/font/titillium-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../../public/assets/font/titillium-semibold-webfont.woff') format('woff'),
+//          url('../../public/assets/font/titillium-semibold-webfont.ttf') format('truetype'),
+//          url('../../public/assets/font/titillium-semibold-webfont.svg#titilliumbold') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+
+// @font-face {
+//     font-family: 'titillium_bdbold';
+//     src: url('../../public/assets/font/titillium-bold-webfont.eot');
+//     src: url('../../public/assets/font/titillium-bold-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../../public/assets/font/titillium-bold-webfont.woff') format('woff'),
+//          url('../../public/assets/font/titillium-bold-webfont.ttf') format('truetype'),
+//          url('../../public/assets/font/titillium-bold-webfont.svg#titillium_bdbold') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+
+// @font-face {
+//     font-family: 'titilliumthin_upright';
+//     src: url('../../public/assets/font/titillium-thinupright-webfont.eot');
+//     src: url('../../public/assets/font/titillium-thinupright-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../../public/assets/font/titillium-thinupright-webfont.woff') format('woff'),
+//          url('../../public/assets/font/titillium-thinupright-webfont.ttf') format('truetype'),
+//          url('../../public/assets/font/titillium-thinupright-webfont.svg#titilliumthin_upright') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+
+// }
+
+
+
+
+
+
+
+
+// /*ETLINE*/
+
+// @font-face {
+// 	font-family: 'et-line';
+// 	src:url('../../public/assets/font/et-line.eot');
+// 	src:url('../../public/assets/font/et-line.eot?#iefix') format('embedded-opentype'),
+// 		url('../../public/assets/font/et-line.woff') format('woff'),
+// 		url('../../public/assets/font/et-line.ttf') format('truetype'),
+// 		url('../../public/assets/font/et-line.svg#et-line') format('svg');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+
+// /* Use the following CSS code if you want to use data attributes for inserting your icons */
+// [data-icon]:before {
+// 	font-family: 'et-line';
+// 	content: attr(data-icon);
+// 	speak: none;
+// 	font-weight: normal;
+// 	font-variant: normal;
+// 	text-transform: none;
+// 	line-height: 1;
+// 	-webkit-font-smoothing: antialiased;
+// 	-moz-osx-font-smoothing: grayscale;
+// 	display:inline-block;
+// }
+
+// /* Use the following CSS code if you want to have a class per icon */
+// /*
+// Instead of a list of all class selectors,
+// you can use the generic selector below, but it's slower:
+// [class*="icon-"] {
+// */
+// .ic-mobile, .ic-laptop, .ic-desktop, .ic-tablet, .ic-phone, .ic-document, .ic-documents, .ic-search, .ic-clipboard, .ic-newspaper, .ic-notebook, .ic-book-open, .ic-browser, .ic-calendar, .ic-presentation, .ic-picture, .ic-pictures, .ic-video, .ic-camera, .ic-printer, .ic-toolbox, .ic-briefcase, .ic-wallet, .ic-gift, .ic-bargraph, .ic-grid, .ic-expand, .ic-focus, .ic-edit, .ic-adjustments, .ic-ribbon, .ic-hourglass, .ic-lock, .ic-megaphone, .ic-shield, .ic-trophy, .ic-flag, .ic-map, .ic-puzzle, .ic-basket, .ic-envelope, .ic-streetsign, .ic-telescope, .ic-gears, .ic-key, .ic-paperclip, .ic-attachment, .ic-pricetags, .ic-lightbulb, .ic-layers, .ic-pencil, .ic-tools, .ic-tools-2, .ic-scissors, .ic-paintbrush, .ic-magnifying-glass, .ic-circle-compass, .ic-linegraph, .ic-mic, .ic-strategy, .ic-beaker, .ic-caution, .ic-recycle, .ic-anchor, .ic-profile-male, .ic-profile-female, .ic-bike, .ic-wine, .ic-hotairballoon, .ic-globe, .ic-genius, .ic-map-pin, .ic-dial, .ic-chat, .ic-heart, .ic-cloud, .ic-upload, .ic-download, .ic-target, .ic-hazardous, .ic-piechart, .ic-speedometer, .ic-global, .ic-compass, .ic-lifesaver, .ic-clock, .ic-aperture, .ic-quote, .ic-scope, .ic-alarmclock, .ic-refresh, .ic-happy, .ic-sad, .ic-facebook, .ic-twitter, .ic-googleplus, .ic-rss, .ic-tumblr, .ic-linkedin, .ic-dribbble {
+// 	font-family: 'et-line';
+// 	speak: none;
+// 	font-style: normal;
+// 	font-weight: normal;
+// 	font-variant: normal;
+// 	text-transform: none;
+// 	line-height: 1;
+// 	-webkit-font-smoothing: antialiased;
+// 	-moz-osx-font-smoothing: grayscale;
+// 	display:inline-block;
+// }
+// .ic-mobile:before {
+// 	content: "\e000";
+// }
+// .ic-laptop:before {
+// 	content: "\e001";
+// }
+// .ic-desktop:before {
+// 	content: "\e002";
+// }
+// .ic-tablet:before {
+// 	content: "\e003";
+// }
+// .ic-phone:before {
+// 	content: "\e004";
+// }
+// .ic-document:before {
+// 	content: "\e005";
+// }
+// .ic-documents:before {
+// 	content: "\e006";
+// }
+// .ic-search:before {
+// 	content: "\e007";
+// }
+// .ic-clipboard:before {
+// 	content: "\e008";
+// }
+// .ic-newspaper:before {
+// 	content: "\e009";
+// }
+// .ic-notebook:before {
+// 	content: "\e00a";
+// }
+// .ic-book-open:before {
+// 	content: "\e00b";
+// }
+// .ic-browser:before {
+// 	content: "\e00c";
+// }
+// .ic-calendar:before {
+// 	content: "\e00d";
+// }
+// .ic-presentation:before {
+// 	content: "\e00e";
+// }
+// .ic-picture:before {
+// 	content: "\e00f";
+// }
+// .ic-pictures:before {
+// 	content: "\e010";
+// }
+// .ic-video:before {
+// 	content: "\e011";
+// }
+// .ic-camera:before {
+// 	content: "\e012";
+// }
+// .ic-printer:before {
+// 	content: "\e013";
+// }
+// .ic-toolbox:before {
+// 	content: "\e014";
+// }
+// .ic-briefcase:before {
+// 	content: "\e015";
+// }
+// .ic-wallet:before {
+// 	content: "\e016";
+// }
+// .ic-gift:before {
+// 	content: "\e017";
+// }
+// .ic-bargraph:before {
+// 	content: "\e018";
+// }
+// .ic-grid:before {
+// 	content: "\e019";
+// }
+// .icon-expand:before {
+// 	content: "\e01a";
+// }
+// .ic-focus:before {
+// 	content: "\e01b";
+// }
+// .ic-edit:before {
+// 	content: "\e01c";
+// }
+// .ic-adjustments:before {
+// 	content: "\e01d";
+// }
+// .ic-ribbon:before {
+// 	content: "\e01e";
+// }
+// .ic-hourglass:before {
+// 	content: "\e01f";
+// }
+// .ic-lock:before {
+// 	content: "\e020";
+// }
+// .ic-megaphone:before {
+// 	content: "\e021";
+// }
+// .ic-shield:before {
+// 	content: "\e022";
+// }
+// .ic-trophy:before {
+// 	content: "\e023";
+// }
+// .ic-flag:before {
+// 	content: "\e024";
+// }
+// .ic-map:before {
+// 	content: "\e025";
+// }
+// .ic-puzzle:before {
+// 	content: "\e026";
+// }
+// .ic-basket:before {
+// 	content: "\e027";
+// }
+// .ic-envelope:before {
+// 	content: "\e028";
+// }
+// .ic-streetsign:before {
+// 	content: "\e029";
+// }
+// .ic-telescope:before {
+// 	content: "\e02a";
+// }
+// .ic-gears:before {
+// 	content: "\e02b";
+// }
+// .ic-key:before {
+// 	content: "\e02c";
+// }
+// .ic-paperclip:before {
+// 	content: "\e02d";
+// }
+// .ic-attachment:before {
+// 	content: "\e02e";
+// }
+// .ic-pricetags:before {
+// 	content: "\e02f";
+// }
+// .ic-lightbulb:before {
+// 	content: "\e030";
+// }
+// .ic-layers:before {
+// 	content: "\e031";
+// }
+// .ic-pencil:before {
+// 	content: "\e032";
+// }
+// .ic-tools:before {
+// 	content: "\e033";
+// }
+// .ic-tools-2:before {
+// 	content: "\e034";
+// }
+// .ic-scissors:before {
+// 	content: "\e035";
+// }
+// .ic-paintbrush:before {
+// 	content: "\e036";
+// }
+// .ic-magnifying-glass:before {
+// 	content: "\e037";
+// }
+// .ic-circle-compass:before {
+// 	content: "\e038";
+// }
+// .ic-linegraph:before {
+// 	content: "\e039";
+// }
+// .ic-mic:before {
+// 	content: "\e03a";
+// }
+// .ic-strategy:before {
+// 	content: "\e03b";
+// }
+// .ic-beaker:before {
+// 	content: "\e03c";
+// }
+// .ic-caution:before {
+// 	content: "\e03d";
+// }
+// .ic-recycle:before {
+// 	content: "\e03e";
+// }
+// .ic-anchor:before {
+// 	content: "\e03f";
+// }
+// .ic.profile-male:before {
+// 	content: "\e040";
+// }
+// .ic-profile-female:before {
+// 	content: "\e041";
+// }
+// .ic-bike:before {
+// 	content: "\e042";
+// }
+// .ic-wine:before {
+// 	content: "\e043";
+// }
+// .ic-hotairballoon:before {
+// 	content: "\e044";
+// }
+// .ic-globe:before {
+// 	content: "\e045";
+// }
+// .ic-genius:before {
+// 	content: "\e046";
+// }
+// .ic-map-pin:before {
+// 	content: "\e047";
+// }
+// .ic-dial:before {
+// 	content: "\e048";
+// }
+// .ic-chat:before {
+// 	content: "\e049";
+// }
+// .ic-heart:before {
+// 	content: "\e04a";
+// }
+// .ic-cloud:before {
+// 	content: "\e04b";
+// }
+// .ic-upload:before {
+// 	content: "\e04c";
+// }
+// .ic-download:before {
+// 	content: "\e04d";
+// }
+// .ic-target:before {
+// 	content: "\e04e";
+// }
+// .ic-hazardous:before {
+// 	content: "\e04f";
+// }
+// .ic-piechart:before {
+// 	content: "\e050";
+// }
+// .ic-speedometer:before {
+// 	content: "\e051";
+// }
+// .ic-global:before {
+// 	content: "\e052";
+// }
+// .ic-compass:before {
+// 	content: "\e053";
+// }
+// .ic-lifesaver:before {
+// 	content: "\e054";
+// }
+// .ic-clock:before {
+// 	content: "\e055";
+// }
+// .ic-aperture:before {
+// 	content: "\e056";
+// }
+
+// .ic-scope:before {
+// 	content: "\e058";
+// }
+// .ic-alarmclock:before {
+// 	content: "\e059";
+// }
+// .ic-refresh:before {
+// 	content: "\e05a";
+// }
+
+// .ic-presentation:before {
+// 	content: "\e00e";
+// }

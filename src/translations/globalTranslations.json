@@ -1,0 +1,246 @@
+{
+	"menu": {
+		"home": [
+			"Home",
+			"Início"
+		],
+		"challenges": [
+			"Challenges",
+			"Desafios"
+		],
+		"about": [
+			"About",
+			"Sobre"
+		],
+		"contact": [
+			"Contact",
+			"Contato"
+		],
+		"resume": [
+			"Resume",
+			"Currículo"
+		],
+		"skills": [
+			"Skills",
+			"Habilidades"
+		]
+	},
+	"label": {
+		"downloadCV": [
+			"Download My CV",
+			"Baixar meu currículo"
+		],
+		"whoIAmTitle": [
+			"Who I am ?",
+			"Quem sou eu?"
+		],
+		"expertise": [
+			"Expertise",
+			"Experiência"
+		],
+		"birthdate": [
+			"Birthdate:",
+			"Nascido em:"
+		],
+		"email": [
+			"E-mail:",
+			"E-mail:"
+		],
+		"skype": [
+			"Skype:",
+			"Skype:"
+		],
+		"freela": [
+			"Freela?:",
+			"Freela?:"
+		],
+		"personalInfo": [
+			"Personal Info",
+			"Quem sou eu?"
+		],
+		"education": [
+			"Education",
+			"Formação Acadêmica"
+		],
+		"skills": [
+			"Skills",
+			"Habilidades"
+		],
+		"languages": [
+			"Languages",
+			"Idiomas"
+		],
+		"interests": [
+			"Interests",
+			"Interesses"
+		],
+		"nacionality": [
+			"Nacionality",
+			"Nacionalidade:"
+		],
+		"location": [
+			"Localization",
+			"Localização:"
+		],
+		"sendamessage": [
+			"Send a Message",
+			"Contate-me"
+		]
+	},
+	"developer": {
+		"name": [
+			"Avelino Neto",
+			"Avelino Neto"
+		],
+		"fullname": [
+			"Avelino Carmanahan Neto",
+			"Avelino Carmanhan Neto"
+		],
+		"cargo": [
+			"Full Stack Senior Developer",
+			"Desenvolvedor Sênior Full Stack"
+		],
+		"email": [
+			"avelinocarmanhanneto@gmail.com",
+			"avelinocarmanhanneto@gmail.com"
+		],
+		"birthDate": [
+			"July, 05th 1989",
+			"05 de julho de 1989"
+		],
+		"freelancerStatus": [
+			"Available",
+			"Disponível"
+		],
+		"skype": [
+			"avelinocneto",
+			"avelinocneto"
+		],
+		"whoIAmTitle": [
+			"",
+			""
+		],
+		"whoIAmDescription": [
+			"More than 10 years working with software development focused on Microsoft technologies.",
+			"Mais de 10 anos de experiência em desenvolvimento de software focado em tecnologias Microsoft."
+		],
+		"whoIAmDescription2": [
+			"More than 15 years with computers, with hardware, lan and the principal: software!",
+			"Mais de 15 anos trabalhando com computadores, seja hardware, redes e o principal: software!"
+		],
+		"nacionality": [
+			"Brazilian",
+			"Brasileiro"
+		],
+		"location": [
+			"Ribeirão Preto, São Paulo, Brazil",
+			"Ribeirão Preto, São Paulo, Brasil"
+		]
+	},
+	"expertise": [
+		{
+			"company": [
+				"Mapa Comercio de Equipamentos e Assistencia Tecnica Ltda"
+			],
+			"cargo": [
+				"Auxiliar Administrativo"
+			],
+			"description": "",
+			"startDate": "Ago 2007",
+			"endDate": "Dez 2007"
+		},
+		{
+			"company": [
+				"Mapa Comercio de Equipamentos e Assistencia Tecnica Ltda"
+			],
+			"cargo": [
+				"Auxiliar Suporte e Tecnologia da Informação"
+			],
+			"description": "",
+			"startDate": "Jan 2008",
+			"endDate": "Dez 2008"
+		},
+		{
+			"company": [
+				"Travel Technology Interactive do Brasil"
+			],
+			"cargo": [
+				"Programador Trainee"
+			],
+			"description": "",
+			"startDate": "Jan 2009",
+			"endDate": "Jun 2009"
+		},
+		{
+			"company": [
+				"Travel Technology Interactive do Brasil"
+			],
+			"cargo": [
+				"Full Stack Pleno Software Developer"
+			],
+			"description": "",
+			"startDate": "Jul 2009",
+			"endDate": "Jun 2011"
+		},
+		{
+			"company": [
+				"Travel Technology Interactive do Brasil"
+			],
+			"cargo": [
+				"Full Stack Senior Software Developer"
+			],
+			"description": "",
+			"startDate": "Jul 2011",
+			"endDate": "Jul 2013"
+		},
+		{
+			"company": [
+				"Travel Technology Interactive do Brasil"
+			],
+			"cargo": [
+				"Full Stack Senior Software Developer and Maintenance Technical Lead"
+			],
+			"description": "",
+			"startDate": "Jul 2011",
+			"endDate": "Present"
+		}
+	],
+	"education": [
+		{
+			"institute": "Faculdade Bandeirantes",
+			"course": "Bacharel em Sistemas de Informação",
+			"description": "",
+			"startDate": "Jan 2007",
+			"endDate": "Dec 2010"
+		}
+	],
+	"interests": [
+		{
+			"icon": "faMusic",
+			"name": "Music"
+		},
+		{
+			"icon": "faGamepad",
+			"name": "Gaming"
+		},
+		{
+			"icon": "faCar",
+			"name": "Cars"
+		},
+		{
+			"icon": "faFutbol",
+			"name": "Soccer"
+		}
+	],
+	"languages": [
+		{
+			"title": "Portuguese",
+			"rating": "5"
+		},
+		{
+			"title": "English",
+			"rating": "3"
+		}
+	],
+	"challenges": []
+}

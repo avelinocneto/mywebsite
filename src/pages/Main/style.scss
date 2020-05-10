@@ -1,0 +1,101 @@
+#sobrenome, .socialPrintables, #languageskills #description { display: none; }
+
+@media print
+{
+    .no-print, .no-print * {
+		display: none !important;
+	}
+
+	.inner-resume-boxe, .edu, .exp {
+		margin-left: 20px !important;
+	}
+
+	.skill-list h4 {
+		width: 300px !important;
+		flex-wrap: nowrap;
+	}
+
+	.exp .hgroup.mb-5, .edu .hgroup.mb-5 {
+		margin-top: 15px !important;
+	}
+
+	#sobrenome, .socialPrintables { display: block }
+	#about {
+		margin-top: -130px !important;
+		padding: -440px 20px !important;
+	}
+
+	.edu, .exp {
+		margin:0px !important;
+		padding: 0px !important;
+	}
+
+	footer, .timeline.mt-40::before, div.exp::after, div.edu::after{
+		display: none;
+	}
+
+	.timeline.mt-40 {
+		margin-top: 20px !important;
+	}
+
+	.block-background-image.medium {
+		padding: 80px 0px 0px 0px !important;
+	}
+
+	.navbar .img-profile img {
+		display: block !important;
+	}
+
+	.block-teaser {
+
+		.white {
+			color: #777777;
+			width: 100% !important;
+			min-width: 500px !important;
+			margin-left: 10px !important;
+		}
+
+		.mt-20, .mb-30{
+			margin-top: 0px !important;
+			margin-bottom: 0px !important;
+		}
+
+		.mt-20 {
+			margin-top: 15px !important;
+		}
+	}
+
+	.teaser h1{
+		width: 500px !important;
+	}
+
+	.hb-list ul li span {
+		color: #777777;
+		border-color: #777777;
+	}
+
+	#languages {
+		margin-top: 140px !important;
+	}
+
+	#languageskills {
+		#description{ display: block; }
+		.rating { display: none; }
+	}
+
+	#printable {
+		.inner-resume-boxe {
+			border: none;
+			padding: 0px;
+			margin-top: 20px;
+
+			#freela, .social, .block-icon, .socials	 {
+				display: none;
+			}
+		}
+
+		#about .block-title{
+			display: none;
+		}
+	}
+}

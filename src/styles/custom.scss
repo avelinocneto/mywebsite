@@ -1,0 +1,27 @@
+.bold {
+	font-weight: bold;
+}
+
+.toPrint {
+	background-color: '#fff';
+	width: '210mm';
+	min-height: '297mm';
+	margin-left: 'auto';
+	margin-right: 'auto';
+}
+
+.sticky-outer-wrapper.active .sticky-inner-wrapper{
+	z-index: 9999;
+
+	.resume {
+		margin-top: 80px;
+	}
+
+	.img-profile{
+		display: none;
+	}
+
+	.name-profile{
+		display: block;
+	}
+}

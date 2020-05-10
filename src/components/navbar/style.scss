@@ -1,0 +1,133 @@
+.nav-container{
+	width:100%;
+	z-index:1000;
+	background: #ffffff;
+	position:absolute ;
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow :0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	-ms-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	-o-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+
+	.fixed{
+		left: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 1000;
+	}
+
+	.base{
+		margin-top:-64px;
+	}
+}
+
+.switched-header {
+    position: fixed;
+	background:#ffffff;
+	left:0;
+	top:0;
+	border-bottom:1px solid #eaeaea;
+}
+
+.main-nav{
+	width:100%;
+	text-align:center;
+
+	.default{
+		display: block;
+	}
+}
+
+.menu {
+    display: inline-block;
+
+	li {
+		display:inline-block;
+		font-size: 13px;
+		text-transform:uppercase;
+		border-left: 1px solid #eaeaea;
+		border-right: 1px solid #eaeaea;
+	}
+
+	li:first-child, .menu li:nth-child(2){
+		border-right:none;
+	}
+
+	li a {
+		color: #333333;
+		display: block;
+		left: 1px;
+		padding: 22px 25px 20px;
+		position: relative;
+	}
+
+	li a svg {
+		color: var(--blue);
+		padding-left:10px;
+		font-size: 18px;
+		padding-top: 4px;
+	}
+}
+
+.mobile-menu-holder{
+	position:relative;
+}
+
+a.mobile-btn, button.mobile-btn {
+	color:#33373d;
+	font-size:20px;
+	position:absolute;
+	right:0;
+	display:none;
+}
+
+.img-profile {
+	position:relative;
+	width: 180px;
+
+	img{
+		border: 10px solid #ffffff;
+		box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+		-moz-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow :0 1px 5px 0 rgba(0, 0, 0, 0.1);
+		-ms-box-shadow:0 1px 5px 0 rgba(0, 0, 0, 0.1);
+		-o-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+		height: 180px;
+		left: 3px;
+		position: absolute;
+		top: -60px;
+		width: 180px;
+	}
+}
+
+.name-profile h5{
+    font-size: 28px;
+    left: -8px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.name-profile h5 span{
+ 	display: block;
+    font-size: 12px;
+	color:#999999;
+	position: relative;
+	top: 2px;
+}
+
+.name-profile h5 a{
+	color:#333333;
+}
+
+.name-profile{
+	display:none;
+}
+
+.switched-header .name-profile{
+	display:block;
+}
+
+.switched-header .img-profile{
+	display:none;
+}
