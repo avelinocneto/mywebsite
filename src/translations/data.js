@@ -4,7 +4,16 @@ import { faMusic, faGamepad, faCar, faFutbol } from '@fortawesome/free-solid-svg
 export default {
 	education: [
 		{
-			institute: "Faculdade Bandeirantes",
+			institute: "Instituto de Gestão e Tecnologia da Informação - IGTI",
+			logo: "/assets/img/igti_logo.jpg",
+			course: "Pós-graduação em Arquitetura de Software",
+			description: "",
+			startDate: "Set 2020",
+			endDate: "Ago 2021"
+		},
+		{
+			institute: "Faculdade Bandeirantes / UNIESP",
+			logo: "/assets/img/uniesp_logo.png",
 			course: "Bacharel em Sistemas de Informação",
 			description: "",
 			startDate: "Jan 2007",
@@ -12,6 +21,7 @@ export default {
 		},
 		{
 			institute: "ETEC José Martimiano da Silva",
+			logo: "/assets/img/etec_logo.jpg",
 			course: "Técnico em Administração de Empresas",
 			description: "",
 			startDate: "Julho 2005",
@@ -87,6 +97,7 @@ export default {
 		, "visualstudio"
 		, faWindows
 		, faApple
+		, "flutter"
 	],
 	softSkills: [
 		"Foco no Cliente", "Vontade de Aprender", "Aprendizado Rápido", "Colaboração", "Adaptabilidade"
@@ -94,19 +105,57 @@ export default {
 	expertise: [
 		{
 			"company": [
-				"Travel Technology Interactive do Brasil"
+				"Source Software"
 			],
+			"logo": "/assets/img/source_logo.jpg",
 			"cargo": [
-				"Desenvolvedor Sênior e Líder Técnico de Manutenção"
+				"CEO / Fundador"
 			],
-			"description": "Liderança técnica da equipe de manutenção contribuindo no suporte técnico a outros desenvolvedores, solução de dúvidas, análise de códigos, análises técnicas, de negócio e estimativas para solução de problemas diários e/ou emergenciais e também para novas funcionalidades nas plataformas Zenith/ReservaWeb e Nexlog (plataforma para gerenciamento de cargas (CMS)). Atuando com tecnologias Microsoft (ASP, ASP.Net Forms, ASP.Net MVC, ASP.NET Web API, C#, Visual Basic 6, VB.Net, SQL Server, Component Services), React Native, Knockout JS.",
-			"startDate": "Jul 2011",
+			"description": "",
+			"startDate": "Jun 2021",
 			"endDate": ''
+		},
+		{
+			"company": [
+				"MAGIT IT Partner"
+			],
+			"logo": "/assets/img/magit_logo.jpg",
+			"cargo": [
+				"Arquiteto de Software"
+			],
+			"description": "Apoio na liderança técnica do time de desenvolvimento MyCAP contribuindo no suporte técnico a outros desenvolvedores, solução de dúvidas, análise de códigos, análises técnicas, de negócio e estimativas para soluções de software. Atuando com tecnologias Microsoft (ASP.Net Forms, ASP.Net MVC, ASP.Net Web API, ASP.Net Core Web API, C#, SQL Server), Angular, Oracle, MongoDB, Salesforce Marketing Cloud, Zendesk Support.",
+			"startDate": "Jan 2022",
+			"endDate": ''
+		},
+		{
+			"company": [
+				"MAGIT IT Partner"
+			],
+			"logo": "/assets/img/magit_logo.jpg",
+			"cargo": [
+				"Desenvolvedor FullStack Sênior"
+			],
+			"description": "Apoio na liderança técnica do time de desenvolvimento MyCAP contribuindo no suporte técnico a outros desenvolvedores, solução de dúvidas, análise de códigos, análises técnicas, de negócio e estimativas para soluções de software. Atuando com tecnologias Microsoft (ASP.Net Forms, ASP.Net MVC, ASP.Net Web API, ASP.Net Core Web API, C#, SQL Server), Angular, Oracle, MongoDB, Salesforce Marketing Cloud, Zendesk Support.",
+			"startDate": "Jul 2011",
+			"endDate": 'Jan 2022'
 		},
 		{
 			"company": [
 				"Travel Technology Interactive do Brasil"
 			],
+			"logo": "/assets/img/tti_logo.jpg",
+			"cargo": [
+				"Desenvolvedor Sênior e Líder Técnico de Manutenção"
+			],
+			"description": "Liderança técnica da equipe de manutenção contribuindo no suporte técnico a outros desenvolvedores, solução de dúvidas, análise de códigos, análises técnicas, de negócio e estimativas para solução de problemas diários e/ou emergenciais e também para novas funcionalidades nas plataformas Zenith/ReservaWeb e Nexlog (plataforma para gerenciamento de cargas (CMS)). Atuando com tecnologias Microsoft (ASP, ASP.Net Forms, ASP.Net MVC, ASP.NET Web API, C#, Visual Basic 6, VB.Net, SQL Server, Component Services), React Native, Knockout JS.",
+			"startDate": "Jul 2011",
+			"endDate": 'Mai 2021'
+		},
+		{
+			"company": [
+				"Travel Technology Interactive do Brasil"
+			],
+			"logo": "/assets/img/tti_logo.jpg",
 			"cargo": [
 				"Programador Pleno"
 			],
@@ -118,6 +167,7 @@ export default {
 			"company": [
 				"Travel Technology Interactive do Brasil"
 			],
+			"logo": "/assets/img/tti_logo.jpg",
 			"cargo": [
 				"Programador Trainee"
 			],
@@ -129,6 +179,7 @@ export default {
 			"company": [
 				"Mapa Comercio de Equipamentos e Assistencia Tecnica Ltda"
 			],
+			"logo": "",
 			"cargo": [
 				"Auxiliar Suporte e Tecnologia da Informação"
 			],
@@ -140,6 +191,7 @@ export default {
 			"company": [
 				"Mapa Comercio de Equipamentos e Assistencia Tecnica Ltda"
 			],
+			"logo": "",
 			"cargo": [
 				"Auxiliar Administrativo"
 			],

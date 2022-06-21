@@ -27,11 +27,32 @@ export default {
 	],
 	expertise: [
 		{
+			company: "Source Software",
+			cargo: "CEO / Founder",
+			description: "",
+			startDate: "Jun 2020",
+			endDate: ''
+		},
+		{
+			company: "MAGIT Partner",
+			cargo: "Software Architect",
+			description: "",
+			startDate: "Jan 2022",
+			endDate: ''
+		},
+		{
+			company: "MAGIT Partner",
+			cargo: "Full Stack Senior Developer",
+			description: "",
+			startDate: "Jun 2020",
+			endDate: 'Jan 2022'
+		},
+		{
 			company: "Travel Technology Interactive do Brasil",
 			cargo: "Full Stack Senior Software Developer and Maintenance Technical Lead",
 			description: "",
 			startDate: "Jan 2009",
-			endDate: ''
+			endDate: 'May 2020'
 		},
 		{
 			company: "Travel Technology Interactive do Brasil",

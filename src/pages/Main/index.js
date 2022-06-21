@@ -164,12 +164,19 @@ class Main extends React.Component {
 											{
 												data.expertise.map((expertise, i) =>
 													<div className="exp" key={i}>
-														<div className="hgroup mb-5">
-															<h4 style={{ fontWeight: "bold" }}>{expertise.cargo}</h4>
-															<h5 style={{ color: "#a1a1a1" }}>{expertise.company}</h5>
-															<h6>{expertise.startDate} – {expertise.endDate.length > 0 ? expertise.endDate : <span className="current">Presente</span>}</h6>
+														<div class="row">
+															{ expertise.logo == "" ? "" :
+																<div className="col-1">
+																	<img src={process.env.PUBLIC_URL + expertise.logo} />
+																</div>
+															}
+															<div className="hgroup mb-5 col-11">
+																<h4 style={{ fontWeight: "bold" }}>{expertise.cargo}</h4>
+																<h5 style={{ color: "#a1a1a1" }}>{expertise.company}</h5>
+																<h6>{expertise.startDate} – {expertise.endDate.length > 0 ? expertise.endDate : <span className="current">Presente</span>}</h6>
+															</div>
+															<p style={{ textAlign: 'justify' }}>{expertise.description}</p>
 														</div>
-														<p style={{ textAlign: 'justify' }}>{expertise.description}</p>
 													</div>
 												)
 											}
@@ -186,12 +193,19 @@ class Main extends React.Component {
 											{
 												data.education.map((education, i) =>
 													<div className="edu" key={i}>
-														<div className="hgroup mb-5">
-															<h4 style={{ fontWeight: "bold" }}>{education.course}</h4>
-															<h5 style={{ color: "#a1a1a1" }}>{education.institute}</h5>
-															<h6>{education.startDate} – {education.endDate}</h6>
+														<div className="row">
+															{ education.logo == "" ? "" :
+																<div className="col-1">
+																	<img src={process.env.PUBLIC_URL + education.logo} />
+																</div>
+															}
+															<div className="hgroup mb-5 col-11">
+																<h4 style={{ fontWeight: "bold" }}>{education.course}</h4>
+																<h5 style={{ color: "#a1a1a1" }}>{education.institute}</h5>
+																<h6>{education.startDate} – {education.endDate}</h6>
+															</div>
+															<p>{education.description}</p>
 														</div>
-														<p>{education.description}</p>
 													</div>
 												)
 											}
